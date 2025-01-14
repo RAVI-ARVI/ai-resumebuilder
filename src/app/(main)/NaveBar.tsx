@@ -11,6 +11,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   const { theme } = useTheme();
+
   return (
     <header className="shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 p-3">
